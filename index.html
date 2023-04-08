@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- rock-paper-scissor project html code  -->
+    <div class="headings">
+      <h1 class="h1">ROCK-</h1>
+      <h1 class="h2">PAPER-</h1>
+      <h1 class="h3">SCISSOR</h1>
+    </div>
+
+    <p>Pick Your Weapon</p>
+    <div class="images">
+      <img class="btn-rock" src="./images/rock.png" alt="rock-image" />
+      <img class="btn-paper" src="./images/paper.png" alt="paper-image" />
+      <img class="btn-scissor" src="./images/scissor.png" alt="scissor-img" />
+
+      <!-- <button class="btn-rock">ROCK</button>
+      <button class="btn-paper">PAPER</button>
+      <button class="btn-scissor">SCISSOR</button> -->
+    </div>
+    <div class="moves">
+      <div class="css-yourmove">
+        Your Move :
+        <span class="result-yourmove"
+          ><img
+            src="rock.png"
+            alt=""
+            class="y1"
+            style="width: 40px; display: none" /><img
+            src="paper.png"
+            alt=""
+            class="y2"
+            style="width: 40px; display: none" /><img
+            src="scissor.png"
+            alt=""
+            class="y3"
+            style="width: 40px; display: none"
+        /></span>
+      </div>
+      <div class="css-compmove">
+        Computer Move :
+        <span class="result"
+          ><img
+            src="rock.png"
+            alt=""
+            class="c1"
+            style="width: 40px; display: none" /><img
+            src="paper.png"
+            alt=""
+            class="c2"
+            style="width: 40px; display: none" /><img
+            src="scissor.png"
+            alt=""
+            class="c3"
+            style="width: 40px; display: none"
+        /></span>
+      </div>
+    </div>
+
+    <div class="message">******</div>
+    <div class="score">
+      <div>Wins : <span class="wins">0</span></div>
+      <div>Losses : <span class="losses">0</span></div>
+      <div>Ties : <span class="ties">0</span></div>
+    </div>
+    <button class="reset button-92">RESET SCORE</button>
+    <footer>
+      <p
+        style="
+          color: rgb(8, 8, 8);
+          height: 40px;
+          font-weight: 900;
+          font-size: 15px;
+          padding-top: 5px;
+        "
+      >
+        ~ Zaryab Ali
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
